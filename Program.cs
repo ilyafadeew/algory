@@ -12,7 +12,7 @@ namespace ALGORY
     class Program
     {
         private static int[] ArrayElements { get; set; } = {1, 6, 8, 3, 9, 7, 4, 2, 63, 7, 3784, 35, 6, 27};
-        private static int SearchElement { get; set; } = 29;
+        private static int SearchElement { get; set; } = ArrayElements[4];
         private const bool IsAppRunning = true;
 
 
